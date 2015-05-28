@@ -1,0 +1,38 @@
+doctype html
+html(ng-app="webpack.angular", ng-strict-di)
+  head
+    meta(charset="UTF-8")
+    meta(http-equiv="Content-type" content="text/html;charset=UTF-8")
+    meta(http-equiv="X-UA-Compatible" content="IE=edge,chrome=1")
+
+    title Webpack AngularJS Boilerplate
+
+    base(href="/")
+
+    link(href="/favicon.ico" rel="shortcut icon" type="image/x-icon")
+    style.
+      [ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
+        display: none !important;
+      }
+
+    //
+      [if lt IE 9]>
+        <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+      <![endif]
+
+  body.ng-cloak
+    //- Google Tag Manager
+    noscript
+      iframe(src='//www.googletagmanager.com/ns.html?id=#{gtmID}', height='0', width='0', style='display: none; visibility: hidden;')
+    script.
+      (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+      new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+      j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+      '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+      })(window,document,'script','dataLayer','#{gtmID}');
+    //- End Google Tag Manager
+    
+    div(ui-view)
+
+    script(type="text/javascript" src="vendor.js")
+    script(type="text/javascript" src="main.js")

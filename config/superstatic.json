@@ -1,0 +1,9 @@
+{
+  "root": "build",
+  "live": false,
+  "routes": [
+    {
+      "/**!(.*)": "index.html"
+    }
+  ]
+}

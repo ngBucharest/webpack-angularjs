@@ -1,0 +1,11 @@
+{
+  "development": {
+    "gtmID": "GTM-FOODEV"
+  },
+  "stage": {
+    "gtmID": "GTM-FOOSTAGE"
+  },
+  "production": {
+    "gtmID": "GTM-FOOPROD"
+  }
+}
