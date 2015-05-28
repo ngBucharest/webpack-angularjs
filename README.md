@@ -6,7 +6,7 @@ Features
 ---
 * Gulp and Webpack as a build system.
 * Superstatic and webpack-dev-server for development.
-* ES6 via babel and [register.js](http://www.michaelbromley.co.uk/blog/350/using-es6-classes-in-angularjs-1-x).
+* ES6 via babel and [register.js](http://www.michaelbromley.co.uk/blog/350/using-es6-classes-in-angularjs-1-x), with ESLint.
 * SASS with Bootstrap and Bourbon.
 * Support for jQuery, Modernizr.
 * Support for [lazy loading via ocLazyLoad and webpack's code splitting mechanism](https://github.com/voidberg/webpack-angularjs-lazyload).
