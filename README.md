@@ -1,17 +1,20 @@
 # webpack-angularjs
 
-A boilerplate to kickstart development using Webpack, Gulp, AngularJS and ES6. 
+A boilerplate to kickstart development using Webpack, Gulp, AngularJS and ES6. Needs better documentation.
 
 Features
 ---
 * Gulp and Webpack as a build system.
-* ES6 via babel and register.js.
+* Superstatic and webpack-dev-server for development.
+* ES6 via babel and [register.js](http://www.michaelbromley.co.uk/blog/350/using-es6-classes-in-angularjs-1-x).
 * SASS with Bootstrap and Bourbon.
 * Support for jQuery, Modernizr.
-* Support for lazy loading via ocLazyLoad and webpack's code splitting mechanism.
+* Support for [lazy loading via ocLazyLoad and webpack's code splitting mechanism](https://github.com/voidberg/webpack-angularjs-lazyload).
 * Modular code structure inspired by Google's recommendations.
 * Unit tests with support for Bamboo and code coverage via Istanbul.
 * E2E tests, local and remote (SauceLabs), with support for Bamboo.
+
+See this presentation for the background: [Towards AngularJS 2, with Webpack and ES6](http://alexandrubadiu.ro/talks/angular_webpack/#/).
 
 Global dependencies installation
 ---
