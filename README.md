@@ -5,7 +5,7 @@ A boilerplate to kickstart development using Webpack, Gulp, AngularJS and ES6. N
 Features
 ---
 * Gulp and Webpack as a build system.
-* Superstatic and webpack-dev-server for development.
+* Superstatic, webpack-dev-server and BrowserSync for development.
 * ES6 via babel and [register.js](http://www.michaelbromley.co.uk/blog/350/using-es6-classes-in-angularjs-1-x), with ESLint.
 * SASS with Bootstrap and Bourbon.
 * Support for jQuery, Modernizr.
